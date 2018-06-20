@@ -43,10 +43,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Sitecore.Commerce.Engine.Connect, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Commerce.Engine.Connect.2.1.54\lib\net462\Sitecore.Commerce.Engine.Connect.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Commerce.Engine.Connect.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Commerce.ServiceProxy, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Commerce.Engine.Connect.2.1.54\lib\net462\Sitecore.Commerce.ServiceProxy.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore.Commerce.ServiceProxy.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SC.Sitecore.ContentSearch.9.0.1\lib\Sitecore.ContentSearch.dll</HintPath>
